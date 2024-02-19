@@ -1,0 +1,123 @@
+body {
+    width: 80%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0px ;
+    padding: 0px;
+    overflow: hidden;
+}
+nav #menuprincipal {
+    background-color: aqua;
+    font-size: 14px;
+    height: 40px;
+}
+
+nav #menuprincipal ul li{
+    float: left ;
+    list-style: none;
+}
+nav #menuprincipal ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+nav #menuprincipial ul li a:hover {
+    font-weight: bold;
+    background-color: black;
+    transition: all 1s;
+}
+
+aside{
+    float: left;
+    width: 27%;
+
+}
+
+aside .panel{
+    margin: 0px;
+    background-color: rgb(182, 111, 249);
+    border:solid 1px cornsilk;
+    font-family: arial;
+    font-size: 12px;
+    width: 100%;
+}
+
+aside .contenedor{
+    padding: 10px;
+}
+
+aside .panel .contenedor h1 {
+    background-color: black;
+    color:aliceblue;
+    font-size: 14px;
+    margin: 0px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+aside .panel ,contenedor{
+    line-height: 150%;
+}
+
+section{
+    float: right;
+    width: 73%;
+    margin:0px;
+    padding: 0px;
+}
+
+section article{
+    margin: 10px;
+    padding: 10px;
+}
+
+section article .articulo{
+    background-color: rgb(0, 204, 255);
+    border:salmon 1px;
+    font-size: 14px;
+    width: 100%;
+    overflow: hidden;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+section article .articulo img{
+    float: left;
+    margin-right: 20px;
+}
+section article .articulo h1{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+}
+footer{
+    display: block;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 100%;
+}
+
+footer p{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
